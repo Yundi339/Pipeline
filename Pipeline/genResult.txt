@@ -1,0 +1,322 @@
+CC 1:
+
+Registers:
+$0:0
+$1:9
+$2:5
+$3:7
+$4:1
+$5:2
+$6:3
+$7:4
+$8:5
+$9:6
+
+Data memory:
+0x00:5
+0x04:9
+0x08:4
+0x0C:8
+0x10:7
+
+IF/ID:
+PC		4
+Instruction	00000000110000000001100000100101
+
+ID/EX :
+ReadData1	0
+ReadData2	0
+sign_ext	0
+Rs		0
+Rt		0
+Rd		0
+Control signals	000000000
+
+EX/MEM :
+ALUout		0
+WriteData	0
+Rt/Rd		0
+Control signals	00000
+
+MEM/WB :
+ReadData	0
+ALUout		0
+Rt/Rd		0
+Control signals	00
+=================================================================
+CC 2:
+
+Registers:
+$0:0
+$1:9
+$2:5
+$3:7
+$4:1
+$5:2
+$6:3
+$7:4
+$8:5
+$9:6
+
+Data memory:
+0x00:5
+0x04:9
+0x08:4
+0x0C:8
+0x10:7
+
+IF/ID:
+PC		8
+Instruction	00000000100001010000100000100000
+
+ID/EX :
+ReadData1	3
+ReadData2	0
+sign_ext	6181
+Rs		6
+Rt		0
+Rd		3
+Control signals	110000010
+
+EX/MEM :
+ALUout		0
+WriteData	0
+Rt/Rd		0
+Control signals	00000
+
+MEM/WB :
+ReadData	0
+ALUout		0
+Rt/Rd		0
+Control signals	00
+=================================================================
+CC 3:
+
+Registers:
+$0:0
+$1:9
+$2:5
+$3:7
+$4:1
+$5:2
+$6:3
+$7:4
+$8:5
+$9:6
+
+Data memory:
+0x00:5
+0x04:9
+0x08:4
+0x0C:8
+0x10:7
+
+IF/ID:
+PC		12
+Instruction	00000000111000100100000000100100
+
+ID/EX :
+ReadData1	1
+ReadData2	2
+sign_ext	2080
+Rs		4
+Rt		5
+Rd		1
+Control signals	110000010
+
+EX/MEM :
+ALUout		3
+WriteData	0
+Rt/Rd		3
+Control signals	00010
+
+MEM/WB :
+ReadData	0
+ALUout		0
+Rt/Rd		0
+Control signals	00
+=================================================================
+CC 4:
+
+Registers:
+$0:0
+$1:9
+$2:5
+$3:7
+$4:1
+$5:2
+$6:3
+$7:4
+$8:5
+$9:6
+
+Data memory:
+0x00:5
+0x04:9
+0x08:4
+0x0C:8
+0x10:7
+
+IF/ID:
+PC		16
+Instruction	00000000000000000000000000000000
+
+ID/EX :
+ReadData1	4
+ReadData2	5
+sign_ext	16420
+Rs		7
+Rt		2
+Rd		8
+Control signals	110000010
+
+EX/MEM :
+ALUout		3
+WriteData	2
+Rt/Rd		1
+Control signals	00010
+
+MEM/WB :
+ReadData	0
+ALUout		3
+Rt/Rd		3
+Control signals	10
+=================================================================
+CC 5:
+
+Registers:
+$0:0
+$1:9
+$2:5
+$3:3
+$4:1
+$5:2
+$6:3
+$7:4
+$8:5
+$9:6
+
+Data memory:
+0x00:5
+0x04:9
+0x08:4
+0x0C:8
+0x10:7
+
+IF/ID:
+PC		20
+Instruction	00000000000000000000000000000000
+
+ID/EX :
+ReadData1	0
+ReadData2	0
+sign_ext	0
+Rs		0
+Rt		0
+Rd		0
+Control signals	000000000
+
+EX/MEM :
+ALUout		4
+WriteData	5
+Rt/Rd		8
+Control signals	00010
+
+MEM/WB :
+ReadData	0
+ALUout		3
+Rt/Rd		1
+Control signals	10
+=================================================================
+CC 6:
+
+Registers:
+$0:0
+$1:3
+$2:5
+$3:3
+$4:1
+$5:2
+$6:3
+$7:4
+$8:5
+$9:6
+
+Data memory:
+0x00:5
+0x04:9
+0x08:4
+0x0C:8
+0x10:7
+
+IF/ID:
+PC		24
+Instruction	00000000000000000000000000000000
+
+ID/EX :
+ReadData1	0
+ReadData2	0
+sign_ext	0
+Rs		0
+Rt		0
+Rd		0
+Control signals	000000000
+
+EX/MEM :
+ALUout		0
+WriteData	0
+Rt/Rd		0
+Control signals	00000
+
+MEM/WB :
+ReadData	0
+ALUout		4
+Rt/Rd		8
+Control signals	10
+=================================================================
+CC 7:
+
+Registers:
+$0:0
+$1:3
+$2:5
+$3:3
+$4:1
+$5:2
+$6:3
+$7:4
+$8:4
+$9:6
+
+Data memory:
+0x00:5
+0x04:9
+0x08:4
+0x0C:8
+0x10:7
+
+IF/ID:
+PC		28
+Instruction	00000000000000000000000000000000
+
+ID/EX :
+ReadData1	0
+ReadData2	0
+sign_ext	0
+Rs		0
+Rt		0
+Rd		0
+Control signals	000000000
+
+EX/MEM :
+ALUout		0
+WriteData	0
+Rt/Rd		0
+Control signals	00000
+
+MEM/WB :
+ReadData	0
+ALUout		0
+Rt/Rd		0
+Control signals	00
+=================================================================
